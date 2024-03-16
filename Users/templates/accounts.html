@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="account_body">
+    <button class="btn btn-primary"><a href="{% url 'teacher' %}" class="text-decoration-none text-white">Teacher</a></button>
+    <button class="btn btn-primary"><a href="{% url 'student' %}" class="text-decoration-none text-white">Student</a></button>
+    </div>
+{% endblock %}
